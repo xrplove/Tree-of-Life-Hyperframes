@@ -70,7 +70,6 @@ export const CANARIES: readonly CanaryDefinition[] = [
     percentage: 10,
     description: "Inert. Validates rollout accuracy and cumulative-exposure drift at 10%.",
     owner: "vance",
-    // Moved +60 days by build/kin (2026-11-02) to unblock Canary sunset CI; owner still needs to ramp, roll back, or delete.
     sunsetAfter: "2027-01-01",
   },
   {
@@ -79,7 +78,6 @@ export const CANARIES: readonly CanaryDefinition[] = [
     description:
       "Inert. Second calibration point, and an independence check against calibration-10.",
     owner: "vance",
-    // Moved +60 days by build/kin (2026-11-02) to unblock Canary sunset CI; owner still needs to ramp, roll back, or delete.
     sunsetAfter: "2027-01-01",
   },
 ] as const;
