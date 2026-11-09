@@ -70,7 +70,7 @@ export const CANARIES: readonly CanaryDefinition[] = [
     percentage: 10,
     description: "Inert. Validates rollout accuracy and cumulative-exposure drift at 10%.",
     owner: "vance",
-    sunsetAfter: "2026-09-15",
+    sunsetAfter: "2027-01-01",
   },
   {
     name: "calibration-50",
@@ -78,7 +78,7 @@ export const CANARIES: readonly CanaryDefinition[] = [
     description:
       "Inert. Second calibration point, and an independence check against calibration-10.",
     owner: "vance",
-    sunsetAfter: "2026-09-15",
+    sunsetAfter: "2027-01-01",
   },
 ] as const;
 
